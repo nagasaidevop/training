@@ -7,7 +7,7 @@ jobs:
       - image: circleci/openjdk:stretch
         auth:
           username: nagasaidevops
-          password: $Nagasai@9596  # context / project UI env-var reference
+          password: Nagasai@9596  # context / project UI env-var reference
     steps:
       - checkout
       - run: echo "this is the build job"
